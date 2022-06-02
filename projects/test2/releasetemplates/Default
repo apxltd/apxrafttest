@@ -1,0 +1,7 @@
+{
+  "Name": "Default",
+  "Pipeline": "Release",
+  "RestrictOverridePipeline": true,
+  "Deployables": [],
+  "TemplateVariables": []
+}

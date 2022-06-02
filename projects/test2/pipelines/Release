@@ -1,0 +1,109 @@
+{
+  "Name": "Release",
+  "Stages": [
+    {
+      "Name": "Build",
+      "Targets": [
+        {
+          "PlanName": "Build",
+          "ServerNames": [],
+          "ServerRoleNames": []
+        }
+      ],
+      "Gate": {
+        "UserApprovals": [],
+        "GroupApprovals": [],
+        "DeploymentWindows": [],
+        "AutomatedChecks": {
+          "Issues": {
+            "Statuses": []
+          }
+        },
+        "AutomaticApprovals": []
+      },
+      "PostDeploymentEventListeners": [],
+      "PreDeploymentSteps": [],
+      "PostDeploymentSteps": [],
+      "Variables": {}
+    },
+    {
+      "Name": "Integration",
+      "Targets": [
+        {
+          "PlanName": "Deploy",
+          "ServerNames": [],
+          "ServerRoleNames": []
+        }
+      ],
+      "Gate": {
+        "UserApprovals": [],
+        "GroupApprovals": [],
+        "DeploymentWindows": [],
+        "AutomatedChecks": {
+          "Issues": {
+            "Statuses": []
+          }
+        },
+        "AutomaticApprovals": []
+      },
+      "PostDeploymentEventListeners": [],
+      "PreDeploymentSteps": [],
+      "PostDeploymentSteps": [],
+      "Variables": {}
+    },
+    {
+      "Name": "Testing",
+      "Targets": [
+        {
+          "PlanName": "Deploy",
+          "ServerNames": [],
+          "ServerRoleNames": []
+        }
+      ],
+      "Gate": {
+        "UserApprovals": [],
+        "GroupApprovals": [],
+        "DeploymentWindows": [],
+        "AutomatedChecks": {
+          "Issues": {
+            "Statuses": []
+          }
+        },
+        "AutomaticApprovals": []
+      },
+      "PostDeploymentEventListeners": [],
+      "PreDeploymentSteps": [],
+      "PostDeploymentSteps": [],
+      "Variables": {}
+    },
+    {
+      "Name": "Production",
+      "Targets": [
+        {
+          "PlanName": "Deploy",
+          "ServerNames": [],
+          "ServerRoleNames": []
+        }
+      ],
+      "Gate": {
+        "UserApprovals": [],
+        "GroupApprovals": [],
+        "DeploymentWindows": [],
+        "AutomatedChecks": {
+          "Issues": {
+            "Statuses": []
+          }
+        },
+        "AutomaticApprovals": []
+      },
+      "PostDeploymentEventListeners": [],
+      "PreDeploymentSteps": [],
+      "PostDeploymentSteps": [],
+      "Variables": {}
+    }
+  ],
+  "Variables": {},
+  "PostDeploymentOptions": {
+    "CreateRelease": true
+  }
+}
