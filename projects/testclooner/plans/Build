@@ -1,0 +1,29 @@
+# This is a sample build script; you can add operations directly to this example plan or delete the whole plan to start from scratch to match your existing build process.
+{
+    Log-Information "This script was auto-generated on 6/2/2022 1:01:48 PM; you may visit the Scripts page to modify it.";
+
+    Sleep
+    (
+        Seconds: 3
+    );
+}
+
+# Get Source
+# Fetch code changes from your source control system in order to build and run tests against them.
+{
+}
+
+# Compile Project
+# Run a familiar build tool such as MSBuild, Maven, make, etc., pull packages & libraries, lint your code, and/or set version numbers.
+{
+}
+
+# Run Tests
+# Execute unit tests, static analysis tools, or capture reports.
+{
+}
+
+# Capture Artifact
+# Create a build artifact from the build output once all tests pass.
+{
+}

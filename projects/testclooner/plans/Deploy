@@ -1,0 +1,29 @@
+# This is a sample deployment script; you can add operations directly to this example plan or delete the whole plan to start from scratch to match your existing deployment process.
+{
+    Log-Information "This script was auto-generated on 6/2/2022 1:01:48 PM; you may visit the Scripts page to modify it.";
+
+    Sleep
+    (
+        Seconds: 3
+    );
+}
+
+# Stop Services
+# Ensure that existing services, websites, containers, or clusters are stopped before deployment.
+{
+}
+
+# Deploy Artifact
+# Deploy the captured artifact from the build plan to a target directory, server, container, cloud service, etc.
+{
+}
+
+# Deploy Configuration Files
+# Deploy application configuration files that pertain to the target server, stage, or environment.
+{
+}
+
+# Start Services
+# Start the services that were stopped at the beginning of this deployment plan.
+{
+}
